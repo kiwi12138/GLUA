@@ -1,11 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
 
-
-import torch.nn as nn
-import torch.nn.functional as F
-
-
 class FCDiscriminator(nn.Module):
 
 	def __init__(self, num_classes, ndf = 64):
